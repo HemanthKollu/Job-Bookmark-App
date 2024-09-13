@@ -1,0 +1,74 @@
+.nav-container {
+    background-color: transparent;
+    margin-top: auto; 
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+  }
+  .nav-container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+  }
+  
+  .nav-container ul li {
+    margin: 0 20px;
+  }
+  .jobsStyle{
+    background-color: hsl(212, 84%, 44%);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .jobsStyle2{
+    background-color: hsl(212, 84%, 54%);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .jobsNavContainer{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+  .jobsNavContainer .link{
+    color: hsl(0, 0%, 80%);
+    text-decoration: none;
+    font-size: 20px;
+    transition: all ease 0.2s;
+  }
+  .jobsNavContainer .link:hover{
+    color: hsl(0, 0%, 100%);
+  }
+  .nav-container .link {
+    color: hsl(0, 0%, 80%);
+    text-decoration: none;
+    font-size: 20px;
+    transition: all ease 0.2s;
+  }
+  
+  .nav-container .link:hover {
+    color: hsl(0, 0%, 100%);
+  }
+  
+  .bookNavContainer{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+  .bookNavContainer .link{
+    color: hsl(0, 0%, 80%);
+    text-decoration: none;
+    font-size: 20px;
+    transition: all ease 0.2s;
+  }
+  .bookNavContainer .link:hover{
+    color: hsl(0, 0%, 100%);
+  }

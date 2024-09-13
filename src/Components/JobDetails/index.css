@@ -1,0 +1,11 @@
+.job-details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.not-found-page{
+    color: #ffffff;
+    font-size: 24px;
+}
